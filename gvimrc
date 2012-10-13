@@ -1,4 +1,12 @@
+" Personal Settings
+set gfn=Monospace\ 14
+
+" Default gui color scheme
+" color ir_black
+color motus
+
 if has("gui_macvim")
+
   " Fullscreen takes up entire screen
   set fuoptions=maxhorz,maxvert
 
@@ -68,8 +76,6 @@ set visualbell
 " Start without the toolbar
 set guioptions-=T
 
-" Default gui color scheme
-color ir_black
 
 " ConqueTerm wrapper
 function StartTerm()
